@@ -1,3 +1,4 @@
+
 .navbar
 {
   box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
@@ -48,6 +49,7 @@
    justify-content: space-around;
    flex-direction: column;
    align-items: flex-end;
+   margin-top: 29px;
    
    
 }
@@ -163,33 +165,6 @@
 
 
 
- @media screen and (max-width: 600px) {
-   .banner{
-      
-      
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      height: 6%;
-      font-size: 12px;
-      
-     
-   }
-
-.res
-{  display: flex;
-   height: 99vh;
-   justify-content: space-around;
-}
-
-
-.column {
-   width: 100%;
-   display: block;
-   margin-bottom: 20px;
-   margin-left: 2px;
- }
-}
 
 
 
@@ -220,30 +195,190 @@
    height:36vh;
  }
 
+.text-background{
+   background-color: #c9c8c8;
+   box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+   color: black;
+   z-index: 1;
+   margin: 15px;
+   border: 10px;
+   
+}
+
+.size{
+   font-size: 15px;
+  
+}
+
+.navbar-brand{
+   letter-spacing: 3px;
+}
+/*footer*/
+
+a .fab{
+   margin: 10px;
+  
+}
+ a .fa-instagram
+{
+   font-size: 1.6em;
+   width: 1.6em;
+   text-align: center;
+   line-height: 1.6em;
+   background: #666;
+   color: #fff;
+   border-radius: 0.8em; 
+   transition: all 0.5s ease-in-out;
+   
+
+  
+}
+
+a .fa-instagram:hover
+{
+   background-color: rgb(238, 109, 109);
+}
+
+
+
+a .fa-facebook
+{
+   font-size: 1.6em;
+   width: 1.6em;
+   text-align: center;
+   line-height: 1.6em;
+   background: #666;
+   color: #fff;
+   border-radius: 0.8em; 
+   transition: all 0.5s ease-in-out;
+
+  
+}
+
+a .fa-facebook:hover
+{
+   background-color: rgb(109, 139, 238);
+}
+
+
+
+
+a .fa-twitter
+{
+   font-size: 1.6em;
+   width: 1.6em;
+   text-align: center;
+   line-height: 1.6em;
+   background: #666;
+   color: #fff;
+   border-radius: 0.8em; 
+   transition: all 0.5s ease-in-out;
+
+  
+}
+
+a .fa-twitter:hover
+{
+   background-color: rgb(15, 89, 248);
+}
+
+
+.Logo
+{
+   padding-left: 26.7px;
+   height: 13vh;
+}
+
+.flex-container
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.Info 
+{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 1vh;
+   list-style-type: none;
+
+
+
+}
+
+.Info  li
+{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: 10px;
+   font-size: 18px;
+   
+  
+   
+}
+.Info li a{
+   color: #464545;
+   letter-spacing: 2px;
+   transition: all 0.5s ease-in-out;
+
+}
+
+
+.Info li a:hover{
+   color: #272626;
+}
+
+
+.Terms ul{
+   display: flex;
+   list-style: none;
+   align-items: center;
+   
+}
+
+
+.Terms ul li{
+   margin: 10px;
+   align-items: center;
+   font-size: 18px;
+   
+
+}
+
+
+.Terms ul li a{
+   color: #464545;
+   letter-spacing: 2px;
+   transition: all 0.5s ease-in-out;
+   
+}
+
+
+.Terms ul li a:hover
+{ color: #272626;
+
+}
+
+
+
+.copy-right{
+  color: #666;
+  padding-left: 15px;
+  letter-spacing: 4px;
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer{
+   background-color: rgb(233, 238, 238);
+}
 
 
 
@@ -251,3 +386,73 @@
 
 
 /*footer*/
+
+
+
+/*about-us*/
+.center{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   width: 40%;
+   height: 50%;
+  
+   background-size: cover;
+ 
+}
+
+
+
+.box {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: antiquewhite;
+
+ }
+ 
+ .box div {
+   width: 45%;
+   height: 50%;
+   padding-top: 35vh;
+   margin-left: -1%;
+   margin-top: -10%;
+  
+   white-space: normal;
+  
+ }
+
+
+
+
+
+
+ 
+ @media screen and (max-width: 600px) {
+   .banner{
+      
+      
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 6%;
+      font-size: 12px;
+      
+     
+   }
+
+.res
+{  display: flex;
+   height: 99vh;
+   justify-content: space-around;
+}
+
+
+.column {
+   width: 100%;
+   display: block;
+   margin-bottom: 20px;
+   margin-left: 2px;
+ }
+}
