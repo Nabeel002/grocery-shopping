@@ -6,3 +6,10 @@ $('.main-carousel').flickity({
 
 
   console.log('hello')
+
+
+
+
+
+
+ 
